@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Spaced Out</title>
+    <style>
+        body {
+            background-color: lime;
+        }
+        
+        img {
+            width: 400px;
+            display: none;
+        }
+        
+        h1 {
+            color: cyan;
+            text-shadow: -3px 3px black;
+        }
+        
+        h2 {
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<script>
+function showImage() {
+    var image = document.getElementById("imageOfSpace");
+    image.style.display = "block";
+}        
+</script>
+<body>
+    <h1>This is the space of the <em>serious</em></h1>
+    <h2>OF COURSE!!!</h2>
+    <h3>>:) :D :p</h3>
+    <p>spaciest space of all spaces</p>
+    <p>spacey fun facts:</p>
+    <ul><b>
+        <li>10 million Earths could fit inside the sun :0</li>
+        <li>there are more stars in the universe than grains of sand on all the beaches on Earth</li>
+        <li>space is completely silent because there is no matter to carry sound waves</li>
+        <li>one day on Mars is called a "sol" because a day on Mars is shorter than a day on Earth</li>
+        </b></ul>
+    <image id="imageOfSpace" src="https://images.photowall.com/products/48217/space-odyssey.jpg?h=699&q=85" /></image>
+    <form>
+        <input type="button" value="show space" onclick="showImage()" />    
+    </form>
+</body>
+</html>
+
